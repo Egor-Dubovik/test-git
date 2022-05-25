@@ -1,7 +1,13 @@
 let a = 5;
-async function mult() {
+function mult() {
 	let c = a * 20;
 	return c;
 }
 
-console.log(await mult());
+
+
+
+
+(function callAllFuction() {
+	console.log(mult());
+})();
