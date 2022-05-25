@@ -1,0 +1,81 @@
+/*Обнуление*/
+
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	position: relative;
+	background-color: rgb(34, 34, 34);
+	color: white;
+	font-size: 24px;
+}
+.wraper {
+	/* position: relative; */
+	width: 100%;
+	min-height: 100%;
+}
+.text {
+	color: red;
+}
+
+
+#field {
+	position: relative;
+	left: 100px;
+	width: 200px;
+	height: 150px;
+	border: 10px solid black;
+	background-color: #00FF00;
+	overflow: hidden;
+	cursor: pointer;
+ }
+
+ #ball {
+	position: absolute;
+}
+
+table {
+	border-collapse: collapse;
+ }
+ th, td {
+	border: 1px solid rgb(53, 20, 244);
+	padding: 4px;
+ }
+ th {
+	cursor: pointer;
+ }
+ th:hover {
+	background: rgba(255, 255, 0, 0.269);
+ }
+
+ .slider {
+	border-radius: 5px;
+	background: #E0E0E0;
+	background: linear-gradient(left top, #E0E0E0, #EEEEEE);
+	width: 310px;
+	height: 15px;
+	margin: 5px;
+ }
+ 
+ .thumb {
+	width: 10px;
+	height: 25px;
+	border-radius: 3px;
+	position: relative;
+	left: 10px;
+	top: -5px;
+	background: rgb(76, 76, 148);
+	cursor: pointer;
+ }
+
+ .logo {
+	 background: url("../webpack-logo.png") 0 0 / contain no-repeat;
+	 width: 200px;
+	 height: 200px;
+ }
